@@ -97,6 +97,8 @@ public class AppTest
         WebElement passwordField = driver.findElement(By.id("password"));
         passwordField.sendKeys(p);
 
+
+
         WebElement button = driver.findElement(By.name("commit"));
         button.click();
 
